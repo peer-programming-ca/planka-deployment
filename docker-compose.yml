@@ -7,7 +7,7 @@ services:
     ports:
       - '1337:1337'
     environment:
-      BASE_URL: 'https://mon-planka.onrender.com' # Remplace par l'URL Render
+      BASE_URL: 'https://planka-n66v.onrender.com' # Remplace par l'URL Render
       DATABASE_URL: 'postgres://planka:planka@db/planka'
       SECRET_KEY: '9c73f23dc5814f56ad731b1a7e63449965749b6317de4e14052f6ab1f6bf652b'
     depends_on:
